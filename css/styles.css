@@ -131,12 +131,12 @@ address {
   bottom: 0;
   border-radius: 2px;
 }
-
+/* не забудь ховер, фокус на футер**/
 .site-nav__link--current:hover,
 .site-nav__link:hover,
 .contacts__link:hover,
-.email-footer:hover,
-.phone-number-footer:hover {
+.footer__email:hover,
+.footer__phone-number:hover {
   cursor: pointer;
   color: var(--buttom-color-1);
 }
@@ -144,8 +144,8 @@ address {
 .site-nav__link--current:focus,
 .site-nav__link:focus,
 .contacts__link:focus,
-.email-footer:focus,
-.phone-number-footer:focus {
+.footer__email:focus,
+.footer__phone-number:focus {
   cursor: pointer;
   color: var(--buttom-color-1);
 }
@@ -310,7 +310,7 @@ address {
 
 /**
 |====================
-| Main-title-metier section
+| Skills section
 |====================
 */
 
